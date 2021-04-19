@@ -8,7 +8,8 @@ import org.junit.runners.MethodSorters;
 public class TestCase extends BaseTest {
 
     @Test
-    public void step1_load_website() { mainPage.load_main_page();
+    public void step1_load_website() { 
+        mainPage.load_main_page();
     }
 
     @Test
@@ -27,7 +28,8 @@ public class TestCase extends BaseTest {
     }
 
     @Test
-    public void step5_load_second_search_page() { searchPage.load_second_page();
+    public void step5_load_second_search_page() { 
+        searchPage.load_second_page();
     }
 
     @Test
